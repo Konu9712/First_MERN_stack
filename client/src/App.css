@@ -1,0 +1,79 @@
+
+/* --------------------Home Page-------------- */
+.home_div{
+  background-color: rgb(126, 139, 216);
+  height: 100vh;
+  width: 100%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+
+}
+
+.home_image{
+width: 70%;
+animation: "bounce"; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; 
+}
+
+/* -----------------404------------------ */
+
+.notfound-404{
+  height: 100vh;
+}
+.text-404{
+ 
+  opacity:0.2;
+  color:"grey"; 
+  font-family: 'Bebas Neue';
+}
+.error-text{
+  font-family: 'Bebas Neue';
+}
+
+
+
+
+/* -----------------SignUp-Form------------- */
+
+.signup-form{
+
+  border-radius: 7px;
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.signupimage{
+  width: 100%;
+  margin: 5px;
+}
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+}
+/* -----------------SignIn-Form------------- */
+
+.signin-card{
+
+  margin-top: 7%;
+  
+}
+
+.signin-form{
+  
+
+   border-radius: 7px;
+   padding: 0px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+
+.signinimage{
+   width: 100%;
+   margin: 5px;
+}
